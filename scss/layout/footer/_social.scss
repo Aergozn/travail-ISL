@@ -1,0 +1,15 @@
+/* Social Network*/
+
+.l-main-footer-social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px #db9a64 solid;
+  margin: 1.5rem 1rem;
+  padding: 1.5rem 2rem;
+}
+
+.l-main-footer-social > i {
+  font-size: 1.5rem;
+  color: #db9a64;
+}

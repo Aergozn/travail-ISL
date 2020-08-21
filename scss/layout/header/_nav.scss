@@ -1,0 +1,43 @@
+/* Navigation */
+
+#menuPrincipal ul {
+  padding: 0;
+  margin: 50px;
+  list-style-type: none;
+  text-align: center;
+}
+
+#menuPrincipal li,
+#menuPrincipal a {
+  display: inline-block;
+}
+
+#menuPrincipal a, a:link {
+  color: #db9a64;
+  padding: 10px;
+  text-decoration: none;
+}
+
+/*#menuPrincipal a:link {
+  color: black;
+}
+
+#menuPrincipal a:visited{
+    color: greenyellow;
+    background-color: blue;
+  }*/
+
+#menuPrincipal a:hover {
+  color: green;
+  background-color: firebrick;
+}
+
+#menuPrincipal a:active {
+  color: red;
+  background-color: yellow;
+}
+
+#menuPrincipal .is-active a {
+  color: gold;
+  border-top: 0.1rem solid greenyellow;
+}
