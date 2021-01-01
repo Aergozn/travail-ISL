@@ -12,7 +12,8 @@
   display: inline-block;
 }
 
-#menuPrincipal a, a:link {
+#menuPrincipal a,
+a:link {
   color: #db9a64;
   padding: 10px;
   text-decoration: none;
@@ -20,7 +21,7 @@
 
 #menuPrincipal a:hover {
   color: green;
-  background-color: firebrick;
+  background-color: whitesmoke;
 }
 
 #menuPrincipal a:active {
